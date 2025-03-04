@@ -1,0 +1,27 @@
+body {
+    background-color: #727272;
+    background: radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent) 72.5px 72.5px, linear-gradient(#ff9b00 5.800000000000001px, transparent 5.800000000000001px) 0 -2.9000000000000004px, linear-gradient(90deg, #ff9b00 5.800000000000001px, #727272 5.800000000000001px) -2.9000000000000004px 0;
+    background-size: 145px 145px, 145px 145px, 72.5px 72.5px, 72.5px 72.5px;
+}
+
+header {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 15px;
+    row-gap: 15px;
+}
+
+.content_float_box {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+}
