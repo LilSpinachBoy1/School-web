@@ -1,7 +1,15 @@
 body {
+    /* Set background design*/
     background-color: #727272;
     background: radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent) 72.5px 72.5px, linear-gradient(#ff9b00 5.800000000000001px, transparent 5.800000000000001px) 0 -2.9000000000000004px, linear-gradient(90deg, #ff9b00 5.800000000000001px, #727272 5.800000000000001px) -2.9000000000000004px 0;
     background-size: 145px 145px, 145px 145px, 72.5px 72.5px, 72.5px 72.5px;
+
+    /* Set the font of the page */
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 header {
