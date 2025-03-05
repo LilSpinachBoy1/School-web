@@ -1,4 +1,7 @@
 body {
+    margin: 0;
+    padding: 0;
+
     /* Set background design*/
     background-color: #727272;
     background: radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #727272 20%, #727272 80%, transparent 80%, transparent) 72.5px 72.5px, linear-gradient(#ff9b00 5.800000000000001px, transparent 5.800000000000001px) 0 -2.9000000000000004px, linear-gradient(90deg, #ff9b00 5.800000000000001px, #727272 5.800000000000001px) -2.9000000000000004px 0;
@@ -13,6 +16,7 @@ body {
 }
 
 header {
+    margin: 10px;
     background-color: white;
     border-radius: 30px;
     padding: 15px;
@@ -26,6 +30,13 @@ main {
     padding-top: 30px;
     gap: 15px;
     row-gap: 15px;
+}
+
+footer {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+    color: white;
 }
 
 .content_float_box {
