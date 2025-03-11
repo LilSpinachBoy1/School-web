@@ -34,9 +34,9 @@ main {
 
 footer {
     padding: 15px;
-    width: 100%;
+    width: 100% - 30px;
     background-color: rgb(55, 55, 55);
-    color: white;
+    color: #a6a6a6;
 }
 
 .content_float_box {
