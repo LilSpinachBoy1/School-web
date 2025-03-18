@@ -44,3 +44,10 @@ footer {
     border-radius: 30px;
     padding: 15px;
 }
+
+#feedback_holder {
+	border-style: dashed;
+	border-width: 1px;
+	border-color: blue;
+	padding: 15px;
+}

@@ -4,6 +4,7 @@
 <head>
     <title>The Great Pyramid of Giza</title>
     <link rel="stylesheet" href="../home_style.css">
+    <script src="giza_script.js"></script>
 </head>
 
 <!-- Page contents -->
@@ -41,8 +42,19 @@
 			<input type="date" id="visit_date" name="visit_date"><br>
 
 			<!-- The feedback itself -->
-			<textarea name="feedback_text" rows="5" cols="50" placeholder="Type feedback here!">				</textarea>
+			<textarea name="feedback_text" rows="5" cols="50">Please provide feedback here!</textarea><br>
+
+			<!-- Submit button -->
+			<input type="submit" id="sub_button">
 		</form>
+	</div>
+
+	<!-- Recent Feedback Box -->
+	<div class="content_float_box">
+		<h2>Recent feedback on the Pyramid:</h2>
+		<div id="feedback_holder">
+			<p>Placeholder...</p>
+		</div>
 	</div>
 </main>
 </body>
